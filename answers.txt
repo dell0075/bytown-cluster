@@ -1,0 +1,3 @@
+Q1: Docker swarm started it in part 1 and Kubernetes in part 3. Both orchestrators had been asked for a specific number of running replicas. If it goes below the desired value it activates and creates a new copy to restore the base amount.
+Q2: Docker swarm is directly built into the docker engine so no need for extra installation for a third party orchestrator. K3s is good because it is lightweight compared to the full Kubernetes installation. It is a single-binary Kubernetes distribution design for lower end devices.
+Q3: That is because a rolling update replaces old pods with new pods. We had two pods. While one was activated we worked on the other one and rolled out the new version and just replaces it with the newly made pod.

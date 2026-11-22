@@ -1,0 +1,9 @@
+ID             NAME               IMAGE            NODE             DESIRED STATE   CURRENT STATE             ERROR     PORTS
+7ad22sw2fuw7   bytown_web.1       bytown-web:1.0   docker-desktop   Running         Running 27 seconds ago              
+ll0f8s42kbw5    \_ bytown_web.1   bytown-web:1.0   docker-desktop   Shutdown        Shutdown 28 seconds ago             
+4sjpotjq6iwz   bytown_web.2       bytown-web:1.0   docker-desktop   Running         Running 23 seconds ago              
+pl6ja5r4jsqv    \_ bytown_web.2   bytown-web:1.0   docker-desktop   Shutdown        Shutdown 23 seconds ago             
+smeo1fkekqy2   bytown_web.3       bytown-web:1.0   docker-desktop   Running         Running 31 seconds ago              
+4y3jgdlvy0zb    \_ bytown_web.3   bytown-web:1.0   docker-desktop   Shutdown        Shutdown 32 seconds ago             
+nlryr59s2hh6   bytown_web.4       bytown-web:1.0   docker-desktop   Running         Running 19 seconds ago              
+uu2rxwzfqhwc    \_ bytown_web.4   bytown-web:1.0   docker-desktop   Shutdown        Shutdown 19 seconds ago             
